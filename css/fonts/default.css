@@ -1,0 +1,312 @@
+* {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height:1.34;
+}
+a {
+	text-decoration: none;
+
+	}
+#bar {
+	text-align: left;
+}
+#bar a, #bar span {
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#top {
+	text-align: right;
+	font-size: 10px;
+	font-weight: normal;
+}
+#tools {
+	font-size: 9pt;
+}
+#menu h2, #info h2, #calendar h2, #login h2 {
+	font-size: 12px;
+	font-weight: lighter;
+}
+#menu span.bold {
+	font-weight: bold;
+}
+#menu a {
+	font-size: 11px;
+	font-weight: lighter;
+}
+#info p, #calendar p, #login p {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#info a, #calendar a, #login a {
+	font-size: 8pt;
+	font-weight: lighter;
+	text-decoration: none;
+}
+#calendar table a {
+	font-weight: bold;
+}
+#calendar table .title {
+	font-size: 12px;
+}
+#calendar table th, #calendar table td {
+	font-size: 8pt;
+	text-align: center;
+}
+#login .center {
+	text-align: center;
+}
+#main h1, #title h1 {
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+
+#main h2 {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+#main h3 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+#mapa h3 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+#main a {
+	/*w*/
+	/*font-weight:bold;*/
+}
+
+/*w*/
+.no_leido{
+	font-weight:900;
+}
+
+#formularios a {
+	cursor:pointer;
+	outline-style:none;
+	text-decoration:none;
+}
+
+#formularios a:hover {
+	text-decoration:underline;	
+}
+
+/*w*/
+
+#main p .center {
+	text-align:center;
+}
+#content table td.image {
+	vertical-align: top;
+	width: 110px;
+}
+#content table td.detail {
+	vertical-align: top;
+}
+#content h2 {
+	font-size: 16px;
+}
+#content h2 a {
+	font-size: 16px;
+}
+#content p.titulo {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+}
+#content p.titulo a {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+}
+#content .eventnumber {
+	text-align: right;
+}
+#content .color_int_social {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#content .color_arte_visual {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#content .color_letras {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#content .color_arte_escenica {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#content .color_grafico_arquitectura {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#content .color_audiovisual {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#content .color_musica {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#content .fecha {
+	font-size: 10px;
+}
+#content .event_content {
+	font-size: 10pt;
+}
+#content .event a {
+	font-weight: bold;
+	text-decoration: none;
+}
+#content .hora {
+	font-size: 9pt;
+	font-weight: bold;
+}
+#content .costo {
+	font-size: 9pt;
+	font-weight: lighter;
+}
+#content .bold {
+	font-weight: bold;
+}
+#content .index {
+	font-size: 8pt;
+	font-weight: lighter;
+}
+#content .index a {
+	font-size: 8pt;
+	font-weight: lighter;
+	text-decoration: none;
+}
+#content .index a:hover {
+	font-size: 8pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+#cloud {
+	font-size: 0.7em;
+	text-align: center;
+}
+#cloud a {
+	text-decoration: underline;
+	white-space: nowrap;
+}
+#footer {
+	font-size:11px;
+	text-align:center;
+}
+.text_box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+.text_box a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.text_box a:hover {
+	text-decoration: underline;
+}
+/* Stilos para los formularios */
+
+#formularios #Formularios_Reserva {
+	font-size: 12pt;
+	font-weight: lighter;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#formularios #Formularios_Reserva .form_presentacion .form_presentacion_font {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	font-weight: normal;
+}
+#formularios .form_pregunta {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+#formularios .form_nom_amb {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+#formularios input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+#formularios .checkbox1 {
+	font-size:13px;
+}
+#formularios textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+#formularios select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+}
+td.mostrar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+/* Stilos para el calendario del mes */
+
+table.smallcalmth {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 13px;
+}
+table.vacios {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 13px;
+}
+div.smallcalmth {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 14px;
+}
+/* font for calendar day name */
+div.domingo {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+}
+div.habil {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+}
+div.ambientes {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+}
+div.cabecera {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+}
+/* font for calendar date numbers */
+div.datenumfont {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+}
+a.calfontnav {
+	font-family: Arial, sans-serif, Helvetica;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+}
+.cent {
+	font-size: 17px;
+	font-style: normal;
+	font-weight: bold;
+}

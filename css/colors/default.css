@@ -1,0 +1,316 @@
+* {
+	color: #333333;
+}
+body {
+	background-image:url(../../imagenes/martadero_bg_oxido.jpg);
+	background-repeat:repeat;
+	}	
+
+#wrapper2 {
+	background: #FFFFFF;
+
+	}
+#header {
+	background-color: #FFFFFF;
+	
+}
+#bar {
+	background: #000000;
+}
+#bar a, #bar span {
+	color: #FFFFFF;
+}
+#bar a:hover, #bar span {
+	color: #FF9A00;
+}
+#top {
+	background: #FFFFFF;
+	color: #000000;
+}
+#tools {
+	background-color: #E6E6E6;
+}
+#tools a:hover {
+	color: #FF9A00;
+}
+#menu a:hover {
+	color: #FF9A00;
+}
+#detalle_sala a {
+	color:#FF9A00;
+}
+#detalle_sala a:hover {
+	color:#000000;
+}
+#calendar table a {
+	color: #FF9A00;
+}
+#calendar table a:hover {
+	color: #000000;
+}
+#calendar table .today {
+	color: #111;
+}
+#login a {
+	color: #FF9A00;
+}
+#main h1, #title h1 {
+	color: #FF9A00;
+}
+#main h2 {
+	color: #999999;
+}
+#main h3 {
+	color: #666666;
+}
+
+/*w*/
+#main table.actividad h3{
+	color: #FF9A00;
+}
+/*w*/
+
+#main .rss a {
+	opacity: .5;
+	/*filter: alpha(opacity=50);*/
+
+	-moz-opacity: 0.5;
+}
+#main .rss a:hover {
+	opacity: 1;
+	/*filter: alpha(opacity=100);*/
+
+	-moz-opacity: 1;
+}
+#content .color_int_social {
+	background-color: #C40009;
+	color: #CCCCCC;
+}
+#content .color_arte_visual {
+	background-color: #DA8D00;
+	color: #CCCCCC;
+}
+#content .color_letras {
+	background-color: #ECBF00;
+	color: #CCCCCC;
+}
+#content .color_arte_escenica {
+	background-color: #859B22;
+	color: #CCCCCC;
+}
+#content .color_grafico_arquitectura {
+	background-color: #0086AA;
+	color: #CCCCCC;
+}
+#content .color_audiovisual {
+	background-color: #A1A2A5;
+	color: #CCCCCC;
+}
+#content .color_musica {
+	background-color: #5B1A81;
+	color: #CCCCCC;
+}
+#content h2 {
+	color: #FF9A00;
+}
+#content .event a {
+	color: #FF9A00;
+}
+#content .event a:hover {
+	color: #000000;
+}
+/*colores para links en detalle*/
+
+#content a {
+	color: #FF9A00;
+}
+#content a:hover {
+	color: #000000;
+}
+#content .event_content {
+	color: #6A6C78;
+}
+#content .hora {
+	color: #55555;
+}
+#content .costo {
+	color: #55555;
+}
+#content #index a {
+	color: #444444;
+}
+#content span.green {
+	color: #669900;
+}
+#mapa h3 {
+	color: #666666;
+}
+#cloud a {
+	color: #999999;
+}
+.destacados {
+	color: #FFE117;
+}
+.text_box {
+	color: #000000;
+}
+.text_box a {
+	color: #FF6600;
+}
+.text_box a:hover {
+	color: #666666;
+}
+.alerta {
+	color: #FF0000
+}
+.validation-advice {
+	color: #FF0000;
+}
+/* Stilos para los formularios */
+/*aumentado por max*/
+/*w*/
+#formularios a {
+	color: #3B5998;
+}
+/*w*/
+/*fin max*/
+#formularios {
+	background-color: #e6e6e6;
+}
+#formularios .form_presentacion .form_presentacion_font {
+	color: #3B5998;
+	background-color: #F7F7F7;
+}
+#formularios .form_pregunta {
+	color: #66666e;
+}
+#formularios .form_nom_amb {
+	color: #7CAC4E;
+}
+#Formularios_Reserva {
+	background-color: #DFE4EE;
+}
+/* Stilos para el calendario del mes */
+
+
+
+table.smallcalmth {
+	color: #000000;
+}
+table.vacios {
+	color: #000000;
+}
+div.smallcalmth {
+	color: #000000;
+}
+td.mostrar {
+	background-color:#F7F7F7;
+}
+/*libre*/
+
+td.smallcalmth0 {
+	background-color:#F7F7F7;
+}
+/*libre para fondo claro*/
+
+td.smallcalmth3 {
+	background-color:#CCCCCC;
+}
+/*reservado*/
+
+td.smallcalmth1 {
+	background-color:#F3E42C;
+}
+/*ocupado #F0CF19*/
+
+td.smallcalmth2 {
+	background-color:#D74D39;
+}
+td.smallcalmth4 {
+	background-color:#FF9900;
+}
+td.smallcalmth5 {
+	background-color:#660066;
+}
+td.cabecera {
+	background-color:#3b5998;
+}
+/* font for calendar day name */
+
+div.domingo {
+	color: #FF9A00;
+}
+div.habil {
+	color: #FFFFFF;
+}
+div.habil_1 {
+	color: #000000;
+}
+div.ambientes {
+	color: #000000;
+}
+div.cabecera {
+	color: #FFFFFF;
+}
+/* font for calendar date numbers */
+
+div.datenumfont {
+	color: #FFFFFF;
+}
+div.datenumfont1 {
+	color: #000000;
+}
+a.calfontnav {
+	color: #FFFFFF;
+}
+.cent {
+	color: #FF9A00;
+}
+
+.redes a:hover{
+filter:alpha(opacity=75);
+opacity: 0.75;
+-moz-opacity:0.75;
+}
+
+.footer_bar{
+	width:auto;
+	height:200px;
+	background-color:#222;
+	filter:alpha(opacity=70);
+	opacity: 0.70;
+	-moz-opacity:0.70;
+	margin-top:-20px;
+	margin-bottom:20px;
+	color:#FFFFFF;
+	
+}
+
+.textfooter{
+	width:auto;
+	height:150px;
+	padding-top:10px;
+	margin-bottom:20px;
+	color:#FFFFFF;
+	z-index:10;
+	margin-left:14px;
+	line-height:15px;
+	float:left;
+	
+}
+
+.textfooter a{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size: 11px;
+	}
+
+.textfooter a:hover{
+	color:#FFFFFF;
+	border-bottom:thin dotted;
+	}
+
+.boldfooter{
+	font-weight:bold;
+	color:#FFFFFF;
+	}
