@@ -21,8 +21,8 @@ a img {
 	border-left: 1px dotted #FFFFFF;
 }*/
 
-#tools input {
-	border: 1px solid #E6E6E6; /*w*/
+/*#tools input {
+	border: 1px solid #E6E6E6; w
 }
 
 #menu h2, #info h2, #calendar h2, #login h2 {
@@ -48,20 +48,20 @@ a img {
 #content table.event {
 	border-bottom: 1px dotted #000;
 }
-/*w*/
+w
 #content table.actividad {
 	border-top: 1px dotted #000;
 }
-/*w*/
+w
 
-/* Stilos para los formularios */
+ Stilos para los formularios 
 
 #formularios {
-	/*border: solid #3b5998 1px;*/
+	border: solid #3b5998 1px;
 }
 
 #formularios .form_presentacion {
-	/*border:solid #C6CFE1 1px;*/
+	border:solid #C6CFE1 1px;
 }
 
 #formularios input {
@@ -92,5 +92,5 @@ a img {
 }
 
 td.mostrar    {
-	/*border-bottom: solid #C6CFE1 1px;*/
-}
+	border-bottom: solid #C6CFE1 1px;
+}*/

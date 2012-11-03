@@ -1,19 +1,17 @@
 * {
-	color: #333333;
+    color: #333333;
 }
+
 body {
-	background-image:url(../../imagenes/martadero_bg_oxido.jpg);
-	background-repeat:repeat;
-	}	
+    background-image: url('../imagenes/martadero_bg_oxido.jpg');
+    background-repeat: repeat;
+}	
 
 #wrapper2 {
-	background: #FFFFFF;
-
-	}
-#header {
-	background-color: #FFFFFF;
-	
+    background: #FFFFFF;
 }
+
+/*
 #bar {
 	background: #000000;
 }
@@ -64,21 +62,21 @@ body {
 	color: #666666;
 }
 
-/*w*/
+w
 #main table.actividad h3{
 	color: #FF9A00;
 }
-/*w*/
+w
 
 #main .rss a {
 	opacity: .5;
-	/*filter: alpha(opacity=50);*/
+	filter: alpha(opacity=50);
 
 	-moz-opacity: 0.5;
 }
 #main .rss a:hover {
 	opacity: 1;
-	/*filter: alpha(opacity=100);*/
+	filter: alpha(opacity=100);
 
 	-moz-opacity: 1;
 }
@@ -119,7 +117,7 @@ body {
 #content .event a:hover {
 	color: #000000;
 }
-/*colores para links en detalle*/
+colores para links en detalle
 
 #content a {
 	color: #FF9A00;
@@ -166,14 +164,14 @@ body {
 .validation-advice {
 	color: #FF0000;
 }
-/* Stilos para los formularios */
-/*aumentado por max*/
-/*w*/
+ Stilos para los formularios 
+aumentado por max
+w
 #formularios a {
 	color: #3B5998;
 }
-/*w*/
-/*fin max*/
+w
+fin max
 #formularios {
 	background-color: #e6e6e6;
 }
@@ -190,7 +188,7 @@ body {
 #Formularios_Reserva {
 	background-color: #DFE4EE;
 }
-/* Stilos para el calendario del mes */
+ Stilos para el calendario del mes 
 
 
 
@@ -206,22 +204,22 @@ div.smallcalmth {
 td.mostrar {
 	background-color:#F7F7F7;
 }
-/*libre*/
+libre
 
 td.smallcalmth0 {
 	background-color:#F7F7F7;
 }
-/*libre para fondo claro*/
+libre para fondo claro
 
 td.smallcalmth3 {
 	background-color:#CCCCCC;
 }
-/*reservado*/
+reservado
 
 td.smallcalmth1 {
 	background-color:#F3E42C;
 }
-/*ocupado #F0CF19*/
+ocupado #F0CF19
 
 td.smallcalmth2 {
 	background-color:#D74D39;
@@ -235,7 +233,7 @@ td.smallcalmth5 {
 td.cabecera {
 	background-color:#3b5998;
 }
-/* font for calendar day name */
+ font for calendar day name 
 
 div.domingo {
 	color: #FF9A00;
@@ -252,7 +250,7 @@ div.ambientes {
 div.cabecera {
 	color: #FFFFFF;
 }
-/* font for calendar date numbers */
+ font for calendar date numbers 
 
 div.datenumfont {
 	color: #FFFFFF;
@@ -271,46 +269,44 @@ a.calfontnav {
 filter:alpha(opacity=75);
 opacity: 0.75;
 -moz-opacity:0.75;
-}
+}*/
 
 .footer_bar{
-	width:auto;
-	height:200px;
-	background-color:#222;
-	filter:alpha(opacity=70);
-	opacity: 0.70;
-	-moz-opacity:0.70;
-	margin-top:-20px;
-	margin-bottom:20px;
-	color:#FFFFFF;
-	
+    width:auto;
+    height:200px;
+    background-color:#222;
+    filter:alpha(opacity=70);
+    opacity: 0.70;
+    -moz-opacity:0.70;
+    margin-top:-20px;
+    margin-bottom:20px;
+    color:#FFFFFF;
 }
 
 .textfooter{
-	width:auto;
-	height:150px;
-	padding-top:10px;
-	margin-bottom:20px;
-	color:#FFFFFF;
-	z-index:10;
-	margin-left:14px;
-	line-height:15px;
-	float:left;
-	
+    width:auto;
+    height:150px;
+    padding-top:10px;
+    margin-bottom:20px;
+    color:#FFFFFF;
+    z-index:10;
+    margin-left:14px;
+    line-height:15px;
+    float:left;
 }
 
 .textfooter a{
-	color:#FFFFFF;
-	text-decoration:none;
-	font-size: 11px;
-	}
+    color:#FFFFFF;
+    text-decoration:none;
+    font-size: 11px;
+}
 
 .textfooter a:hover{
-	color:#FFFFFF;
-	border-bottom:thin dotted;
-	}
+    color:#FFFFFF;
+    border-bottom:thin dotted;
+}
 
 .boldfooter{
-	font-weight:bold;
-	color:#FFFFFF;
-	}
+    font-weight:bold;
+    color:#FFFFFF;
+}

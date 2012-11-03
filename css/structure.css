@@ -1,10 +1,13 @@
 #wrapper1 {
-	width: 984px;
+    width: 984px;
 }
+
 #header {
-	width: 968px;
-	height: 200px;
+    width: 968px;
+    height: 200px;
 }
+
+/*
 #tools {
 	height: 25px;
 }
@@ -45,18 +48,18 @@
 	float: left;
 	width: 330px;
 	height: 100px;
-}
+}*/
 #footer {
 	clear: both;
 	height: auto;
-}
+}/*
 .text_box {
 	width: 500px;
 }
 .text_box a {
 	width: 500px;
 }
-/* Stilos para los formularios */
+ Stilos para los formularios 
 
 #formularios .form_presentacion {
 	display: block;
@@ -68,20 +71,20 @@
 #formularios .form_nom_amb {
 	text-align:left;
 }
-/* Stilos para el calendario del mes */
+ Stilos para el calendario del mes 
 
 table.smallcalmth {
-	/*width: 100%;*/ /*w*/
+	width: 100%; w
 }
 table.vacios {
 	width: 100%;
 }
-/* font for calendar day name */
+ font for calendar day name 
 
 div.ambientes {
 	float: left;
 }
-/* font for calendar date numbers */
+ font for calendar date numbers 
 
 div.left {
 	width:30%;
@@ -92,7 +95,7 @@ div.right {
 	float:right;
 }
 
-/*estilos para el panel de contactos*/ /*w*/
+estilos para el panel de contactos w
 .error, .error_popup { 
 	font-family: Helvetica, Verdana;
 	font-size: 13px;
@@ -124,7 +127,7 @@ div.right {
 	font-size: 1em; 
 	//margin-top:2em;
 	margin-top:1em;
-	/*background-color:#7B859C;*/
+	background-color:#7B859C;
 	background:#d4dfe4;
 	//color: #666;
 	margin-left: 1.8em;
@@ -149,8 +152,8 @@ div.right {
 	margin-right: 0em;
 }
 
-/*w*/
-/*burbuja*/
+w
+burbuja
 .bubble {background: transparent;}
 
 .bubble span.s1 {display:block; width:0; height:0; color:#FFF8CC; overflow:hidden;
@@ -172,5 +175,5 @@ transparent; margin-left:7px; margin-top:-7px;}
 }
 
 .content p {margin:0 5px; padding: 5px 0;}
-/*burbuja*/
-/*w*/
+burbuja
+w*/
