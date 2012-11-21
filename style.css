@@ -45,13 +45,17 @@ a {
     vertical-align: middle;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /* the rest of the things */
-#header {
+#wrapper1, #header {
     margin: 0 auto;
     width: 1038px;
 }
 
-#wrapper {
+#wrapper2 {
     margin: 0 auto;
     width: 984px;
 }
@@ -146,6 +150,7 @@ a {
     display: block;
     color: #333333;
     margin: 3px 5px 2px 5px;
+    padding-left: 15px;
 }
 
 #tools ul li a:hover {
@@ -154,7 +159,7 @@ a {
 
 /* protagonic divs (starring in maquetation) */
 #head_bar {
-    margin: 0px 5px;
+    margin: 0px 5px 4px 5px;
 }
 
 #content {
@@ -169,12 +174,44 @@ a {
 
 #left_bar {
     float: left;
-    width: 176px;
+    width: 170px;
+    padding-right: 1px;
+    padding-left: 5px;
 }
 
 #right_bar {
     float: right;
-    width: 206px;
+    width: 200px;
+    padding-right: 5px;
+    padding-left: 1px;
+}
+
+/* head of page */
+#head_bar #logo {
+    float:left;
+    width: 175px;
+    margin-top: 20px;
+}
+
+#head_bar #services {
+    float:left;
+    width: 564px;
+    padding: 0px 20px 0px 15px;
+}
+
+#head_bar #participate {
+    float:right;
+    width: 200px;
+}
+
+/* services div */
+#head_bar #services .service {
+    margin: 10px 0px 20px 0px;
+}
+
+#head_bar #services .service p {
+    margin: 0px;
+    padding: 0px;
 }
 
 /* foot of page */
@@ -289,12 +326,14 @@ a {
     padding: 5px 5px;
 }
 
-#main .tab .email {
+#main .tab .email,
+#right_bar .post .email {
     float: right;
     margin: 0px 5px 5px 0px;
 }
 
-#main .tab .email img {
+#main .tab .email img,
+#right_bar .post .email img {
     width: 20px;
     height: auto;
 }
@@ -346,6 +385,138 @@ a {
 
 #main .event .event-content {}
 
+#main .event .event-explain {
+    margin: 5px 0px 15px 0px;
+}
+
+#main .event .event-time {
+    margin: 15px 0px 0px 0px;
+}
+
 #main .event .event-comments {
     float: right;
+}
+
+/* right block */
+#right_bar a {
+    border-bottom: 1px solid #ffffff;
+}
+
+#right_bar a:hover {
+    border-bottom: 1px dotted #ff9a00;
+    color: #ff9a00;
+}
+
+#right_bar .post {
+    margin: 0px 0px 10px 0px;
+}
+
+#right_bar .post h1 {
+    background: url('/imagenes/bg_title.jpg') no-repeat;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 9px 0px 15px 10px;
+    margin: 0px 0px 0px -10px;
+}
+
+#right_bar .post .post-element {
+    border-bottom: 1px dotted #ff9a00;
+    padding: 10px 0px;
+}
+
+#right_bar .post .all {
+    padding: 10px 0px;
+}
+
+/* left block */
+#left_bar * {
+    font-size: 11px;
+}
+
+#left_bar .post {
+    margin: 0px 0px 10px 0px;
+}
+
+#left_bar .post h1 {
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px dotted #000000;
+    margin-bottom: 10px;
+}
+
+#left_bar .post h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#left_bar .post ul li a img {
+    width: 150px;
+    height: auto;
+}
+
+#left_bar .post p {
+    font-size: 11px;
+}
+
+#left_bar .post ul {
+    list-style-type: none;
+}
+
+#left_bar .post ul li {
+    border-left: 1px dotted #000000;
+    margin: 5px 0px;
+    padding: 0px 0px 0px 5px;
+}
+
+#left_bar .post ul li a {
+    font-size: 11px;
+}
+
+#left_bar .post ul li a:hover,
+#left_bar .post p a:hover {
+    color: #ff9a00;
+}
+
+#left_bar input[type="text"],
+#left_bar input[type="password"] {
+    border: 1px solid #dddddd;
+    padding: 3px 6px;
+}
+
+#left_bar input[type="submit"] {
+    border: 1px solid #dddddd;
+    background: #eeeeec;
+    padding: 3px 6px;
+}
+
+#left_bar table {
+    width: 100%;
+}
+
+#left_bar table tr td {
+    vertical-align: top;
+}
+
+#left_bar table tr td a {
+    font-weight: bold;
+    color: #ff9a00;
+}
+
+/* sharing div (special treatment) */
+#left_bar #sharing {
+    border-top: 1px solid #000000;
+}
+
+#left_bar #sharing p {
+    padding-bottom: 10px;
+}
+
+/* calendar properties */
+.calendar tr td {
+    text-align: right;
+}
+
+.calendar tr td.text-center {
+    text-align: center;
 }
