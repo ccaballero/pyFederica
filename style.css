@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+a img {
+    border: none;
+}
+
 /* class' properties */
 .left {
     float: left;
@@ -53,6 +57,10 @@ a {
 #wrapper1, #header {
     margin: 0 auto;
     width: 1038px;
+}
+
+#header img {
+    border: none;
 }
 
 #wrapper2 {
