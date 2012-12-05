@@ -13,7 +13,7 @@ html, body, ul, h1 {
 }
 
 body {
-    background: #ffffff url('/imagenes/martadero_bg_oxido.jpg') repeat;
+    background: #ffffff url('/static/imagenes/martadero_bg_oxido.jpg') repeat;
 }
 
 a {
