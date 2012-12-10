@@ -13,7 +13,7 @@ html, body, ul, h1 {
 }
 
 body {
-    background: #ffffff url('/static/imagenes/martadero_bg_oxido.jpg') repeat;
+    background: #ffffff url('/static/images/martadero_bg_oxido.jpg') repeat;
 }
 
 a {
@@ -256,11 +256,12 @@ a img {
 
 #footer ul.primary li {
     float: left;
-    max-width: 100px;
-    padding: 0px 10px 0px 10px;
+    width: 111px;
+    padding: 0px 0px 0px 10px;
 }
 
 #footer ul.primary li a {
+    float: left;
     color: #ffffff;
     font-size: 13px;
     font-weight: bold;
@@ -268,9 +269,9 @@ a img {
 }
 
 #footer ul.secondary {
+    float: left;
     list-style-type: square;
     list-style-position: outside;
-    float: left;
     margin-bottom: 10px;
 }
 
@@ -320,7 +321,7 @@ a img {
 }
 
 #main .tab, #main ul li.active {
-    background: url('/imagenes/bg_contenido_inicio.jpg') repeat;
+    background: url('/static/images/bg_contenido_inicio.jpg') repeat;
 }
 
 #main .tab {
@@ -367,7 +368,6 @@ a img {
 
 #main .event .event-photo a {
     float: left;
-    border: 2px solid silver;
 }
 
 #main .event .event-detail {
@@ -420,7 +420,7 @@ a img {
 }
 
 #right_bar .post h1 {
-    background: url('/imagenes/bg_title.jpg') no-repeat;
+    background: url('/static/images/bg_title.jpg') no-repeat;
     color: #ffffff;
     font-weight: bold;
     font-size: 17px;

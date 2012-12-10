@@ -1,2 +1,4 @@
 *.pyc
 federica/settings.py
+/nbproject/private/
+/nbproject
